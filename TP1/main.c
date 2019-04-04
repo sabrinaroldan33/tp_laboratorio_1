@@ -31,7 +31,6 @@ int main()
                 printf("Ingrese el primer operando: \n");
                 scanf("%d",&x);
                 error=numeroValido (x);
-                printf("%d",error);
                 break;
             case 2:
                 printf("Ingrese el segundo operando: \n");
@@ -47,9 +46,13 @@ int main()
                 printf("\nLa resta de los numeros %d y %d es: %d \n\n",x,y,z);
                 break;
             case 5:
-                z=divisionNumerosIngresados (x,y);
-                printf("\nLa division de los numeros %d y %d es: %d \n\n",x,y,z);
-                break;
+                    if(y==0){
+                        printf("Error. Ingrese un numero distinto a cero para B.\n");
+                    }else{
+                        z=divisionNumerosIngresados (x,y);
+                        printf("\nLa division de los numeros %d y %d es: %d \n\n",x,y,z);
+                    }
+                    break;
             case 6:
                 z=multiplicacionNumerosIngresados (x,y);
                 printf("\nLa multiplicacion de los numeros %d y %d es: %d \n\n",x,y,z);
