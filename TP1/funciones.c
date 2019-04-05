@@ -9,9 +9,11 @@
 */
 int numeroValido (int a)
 {
-   if((a==NULL) || (a!='\0') || (a==EOF) || (a!='\ '))
+    int retorno= -1;
+
+    if(a==0)
     {
-        printf("Caracter ingresado no valido, ingrese otro numero\n");
+        return retorno;
     }
     return 0;
 }
