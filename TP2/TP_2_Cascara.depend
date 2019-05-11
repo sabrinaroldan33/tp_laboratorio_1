@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1557457038 source:c:\users\usuario\desktop\utn\programacion_1_laboratorio_1\labo-prog 1\tp2 - fecha -- 11 - 5 -2018\tp_2_cascara\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1461846544 c:\users\usuario\desktop\utn\programacion_1_laboratorio_1\labo-prog 1\tp2 - fecha -- 11 - 5 -2018\tp_2_cascara\tp_2_cascara\funciones.h
+
+1557537497 source:c:\users\sabrina.roldan\documents\tp_2_cascara\tp_2_cascara\1\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"utn.h"
+	"persona.h"
+
+1557456076 c:\users\sabrina.roldan\documents\tp_2_cascara\tp_2_cascara\1\utn.h
+
+1557536133 c:\users\sabrina.roldan\documents\tp_2_cascara\tp_2_cascara\1\persona.h
+
+1557539182 source:c:\users\sabrina.roldan\documents\tp_2_cascara\tp_2_cascara\1\persona.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"persona.h"
+
+1557539391 source:c:\users\sabrina.roldan\documents\tp_2_cascara\tp_2_cascara\1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
